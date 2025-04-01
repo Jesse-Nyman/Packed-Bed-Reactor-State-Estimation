@@ -20,7 +20,9 @@ CasADi (v3.5.5 or compatible) — for optimization and automatic differentiation
 Instructions:
 For the dynamics the main coding file is: catalystDecay_bulk_simulate_parameters.m. Other files were testing different scenarios, proven unsuccesful in thier implementation. For running this file, ensure your path of CasADI is added and you cqn just run that with the helper functions also in your directory.
 
-For the linearization and PID, it is the same story.
+For the linearization and PID, it is the same story, however the main file to run is main.m. 
+
+For the MHE scenarios there are standalone files with all functions built in at the end of the file. The thetaonly MHE file is for theoretial "full state" observability, and only catalyst decay is predicted, while the 
 
 # Reference
 
