@@ -22,7 +22,7 @@ For the dynamics the main coding file is: catalystDecay_bulk_simulate_parameters
 
 For the linearization and PID, it is the same story, however the main file to run is main.m. 
 
-For the MHE scenarios there are standalone files with all functions built in at the end of the file. The thetaonly MHE file is for theoretial "full state" observability, and only catalyst decay is predicted, while the 
+For the MHE scenarios there are standalone files with all functions built in at the end of the file. The thetaonly MHE file is for theoretial "full state" observability, and only catalyst decay is predicted, while the mheCD_3hrSimMultiHorizon_BetterGuessAndMultiShoot.m is for the scenario where there is very limited state observability. This yeilded poor results, however, both files physcial parameters and MHE parameters can be modified for the best results.
 
 # Reference
 
