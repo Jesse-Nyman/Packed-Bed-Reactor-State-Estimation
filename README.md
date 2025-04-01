@@ -18,7 +18,9 @@ CasADi (v3.5.5 or compatible) — for optimization and automatic differentiation
 # How to Run the Codes
 
 Instructions:
-(Add your instructions here)
+For the dynamics the main coding file is: catalystDecay_bulk_simulate_parameters.m. Other files were testing different scenarios, proven unsuccesful in thier implementation. For running this file, ensure your path of CasADI is added and you cqn just run that with the helper functions also in your directory.
+
+For the linearization and PID, it is the same story.
 
 # Reference
 
